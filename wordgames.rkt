@@ -2,10 +2,6 @@
 
 Game 1: 
 
-;; The first three lines of this file were inserted by DrRacket. They record metadata
-;; about the language level of this file in a form that our tools can easily process.
-#reader(lib "htdp-beginner-reader.ss" "lang")((modname sarcasm) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor mixed-fraction #f #t none #f () #t)))
-;;4
 ;;a)
 ;;pair-listof-X-template: takes in a lst and processes the first two terms
 ;; considers the cases if the lst is either empty, one term or two terms
@@ -66,10 +62,6 @@ Game 1:
 
 ;;Game 2:
 
-;; The first three lines of this file were inserted by DrRacket. They record metadata
-;; about the language level of this file in a form that our tools can easily process.
-#reader(lib "htdp-beginner-reader.ss" "lang")((modname fizz-buzz) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor mixed-fraction #f #t none #f () #t)))
-;;5)
 ;;(fizz-buzz) considers if the game is fizz or buzz
 ;;Examples:
 (check-expect (fizz-buzz 1 2 3 4) (cons 1 (cons 2 empty)))
